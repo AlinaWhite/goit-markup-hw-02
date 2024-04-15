@@ -23,8 +23,9 @@ body {
 
 .pagelogo {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -51,12 +52,15 @@ body {
     text-decoration: underline;
 }
 
+.contacts-block {
+    font-style: normal
+}
+
 .contacts-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
     color: #434455;
 }
 
@@ -130,6 +134,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-item-name {
@@ -156,7 +161,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .ptf-item-name {
@@ -187,6 +192,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    font-weight: 700;
 }
 
 .footer-logo {
